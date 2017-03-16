@@ -1,0 +1,186 @@
+/* CSS Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* Layout */
+
+body{
+	width: 760px;
+	margin: 75px auto;
+	position: relative;
+}
+div#header{
+
+}
+div#header h1{
+	width: 291px;
+	height: 124px;
+	position: absolute;
+	left: -60px;
+	top: -60px;
+}
+div#header h1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -999px;
+	overflow: hidden;
+}
+div#content{
+	padding: 95px 105px 25px 250px;
+	min-height: 400px;
+}
+div#content p.bubble{
+	width: 399px;
+	height: 91px;
+	position: relative;
+	left: 20px;
+	padding: 35px 10px 0 75px;
+}
+div#content p:nth-child(4){
+	margin-top: 180px;
+}
+div#content img#robotmode{
+	position: absolute;
+	left: 10px;
+	top: 70px;
+	z-index: 10;
+}
+div#content img#vehiclemode{
+	position: absolute;
+	right: -50px;
+	top: 340px;
+}
+div#navigation{
+	width: 211px;
+	height: 641px;
+	position: absolute;
+	top: 65px;
+	left: -75px;
+}
+div#footer{
+	padding: 20px;
+}
+div#footer p img{
+	float: left;
+	margin-right: 10px;
+}
+
+/* Typography */
+
+body{
+	font: normal normal 100%/1.4 "Lucida Grande", Tahoma, Helvetica, sans-serif;
+	color: #333;
+}
+div#content h2{
+	font-size: 100%;
+	font-weight: bold;
+	color: #DE0012;
+	text-transform: uppercase;
+	text-align: right;
+}
+div#content h3{
+	font-size: 200%;
+	font-weight: bold;
+	color: #183B8D;
+	margin-bottom: 1em;
+	text-align: right;
+}
+div#content h4{
+	font-weight: bold;
+	color: #183B8D;
+	margin: 1.5em 0 .5em 0;
+}
+div#content p{
+	margin-bottom: 1em;
+}
+div#content p.bubble{
+	font-size: 120%;
+	margin-bottom: 0;
+	margin-top: -20px;
+}
+div#navigation ul{
+	margin: 30px 20px 30px 20px;
+}
+div#navigation li{
+	margin-bottom: 0.25em;
+}
+div#navigation a:link{
+	color: #FFF;
+	text-decoration: none;
+}
+div#navigation a:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+div#navigation a:hover{
+	color: #FFF;
+	text-decoration: underline;
+}
+div#navigation a:active{
+	color: #DE0012;
+	text-decoration: none;
+}
+div#footer p{
+	font-size: 70%;
+}
+p.bubble {
+	text-transform: uppercase;
+}
+div#footer p {
+	font-style: normal;
+}
+
+/* Colours */
+
+body{
+	background-color: #2685D8;
+}
+div#header h1{
+	background: transparent url('../images/logo_transformers.png') top left no-repeat;
+}
+div#content{
+	background-color: #FFF;
+}
+div#content p.bubble{
+	background: transparent url('../images/speech_bubble.png') top left no-repeat;
+}
+div#navigation{
+	background: transparent url('../images/bg_nav.png') top left no-repeat;
+}
+div#footer{
+	background-color: #FFF;
+}
+div#content
+{
+	background-color: #ADD8E6; 
+}
